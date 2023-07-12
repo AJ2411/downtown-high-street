@@ -29,8 +29,8 @@ function page() {
       validationSchema={schema}
       onSubmit={console.log}
       initialValues={{
-        firstName: ' ',
-        lastName: '  ',
+        firstName: 'Akash',
+        lastName: 'Jagtap',
         username: '',
         city: '',
         state: '',
@@ -40,7 +40,10 @@ function page() {
       }}
     >
       {({ handleSubmit, handleChange, values, touched, errors }) => (
-        <Form noValidate onSubmit={handleSubmit}>
+       <div class="container">
+       
+     
+       <Form noValidate onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group
               as={Col}
@@ -63,6 +66,7 @@ function page() {
               md="4"
               controlId="validationFormik102"
               className="position-relative"
+            
             >
               <Form.Label>Last name</Form.Label>
               <Form.Control
@@ -156,7 +160,7 @@ function page() {
             </Form.Group>
           </Row>
           <Form.Group className="position-relative mb-3">
-            <Form.Label>File</Form.Label>
+            <Form.Label>Complaint File</Form.Label>
             <Form.Control
               type="file"
               required
@@ -183,6 +187,7 @@ function page() {
           </Form.Group>
           <Button type="submit">Submit form</Button>
         </Form>
+        </div>
       )}
     </Formik>
   );

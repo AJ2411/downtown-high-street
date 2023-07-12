@@ -4,12 +4,18 @@ import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.css";
 import Head from "next/head";
 import Image from "next/image";
-import Page from "./pagesdetails/Navbar";
+import { Advent_Pro } from "next/font/google";
 import "bootstrap-icons/font/bootstrap-icons.min.css"
 
 
 //import tree from "./img-tree-png.png"
 
+const adventPro= Advent_Pro({
+  subsets: ['latin'],
+  weight:'100',
+  style:"italic",
+  
+})
 
   export default function Home(){
   const handleButtonAction = (e) => {
@@ -33,17 +39,21 @@ import "bootstrap-icons/font/bootstrap-icons.min.css"
         {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"></link> */}
         
      </Head>
-      
-      <h1 class="text-center">DOWNTOWN HIGH STREET</h1>
-      <Page/>
+     <div className="container">
+  <div className="text-center">
+          <h1 className={adventPro.className}>DOWNTOWN HIGH STREET</h1>
+  </div>
+</div>
+      {/* <h1 className={adventPro.className}>DOWNTOWN HIGH STREET</h1> */}
+      {/* <Page/> */}
       {/* <Link href="/productlist">Go to Product List</Link><br/> */}
       {/* <Button onClick={handleButtonAction}>SetBackground</Button><br/> */}
 
       <Image
         src="/img/akash.webp"
         alt="shopping image"
-        width={1540}
-        height={510}
+        width={1518}
+        height={400}
         objectFit='contain'
         />
     </>

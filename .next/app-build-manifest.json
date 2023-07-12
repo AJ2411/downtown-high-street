@@ -12,16 +12,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/enquiry-us/page": [
+    "/contact-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/enquiry-us/page.js"
+      "static/chunks/app/contact-us/page.js"
     ],
     "/productlist/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/productlist/page.css",
       "static/chunks/app/productlist/page.js"
+    ],
+    "/enquiry-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/enquiry-us/page.js"
     ]
   }
 }

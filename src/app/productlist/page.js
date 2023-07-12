@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css"
 import "./productlist.css"
 
@@ -42,12 +43,11 @@ export default function Page() {
         <Card.Body>
           <Card.Title>{item.id}</Card.Title>
           <Card.Text>{item.title} </Card.Text>
-          <Card.Text>{item.description} </Card.Text>
-          <Card.Text>{item.price} </Card.Text>
           <Card.Text>{item.brand} </Card.Text>
-          <Card.Text>{item.category} </Card.Text>
-          <Card.Text>{item.rating} </Card.Text>
-          <Card.Title>{item.stock}</Card.Title>
+          <Card.Text>{item.description} </Card.Text>
+          <Card.Text>${item.price} </Card.Text>
+          <Card.Text>{item.category} </Card.Text>  
+          <Card.Title>No:{item.stock}</Card.Title>
          </Card.Body>
           <Card.Footer>
           <Button><i class="bi bi-cart-plus"></i></Button>{'  '}
