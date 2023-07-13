@@ -32,7 +32,7 @@ function Apps() {
         <Modal.Header closeButton>
           <Modal.Title>9933669966</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Thank You for contact with us </Modal.Body>
+        <Modal.Body>Thank You for contact with us. </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

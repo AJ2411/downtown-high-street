@@ -9,27 +9,25 @@ import Button from 'react-bootstrap/Button';
 export default function App() {
   return (
     <>
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted fix-bottom'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-2 border-bottom'>
+        <div className='me-1 d-none d-sm-block fix-bottom '>
           <span>Get connected with us on social networks:</span>
         </div>
 
-        <div>
-        <Button variant="primary"><i class="bi bi-facebook"></i></Button>{'  '}
-        <Button variant="danger"><i class="bi bi-instagram"></i></Button>{'  '}
-        <Button variant="primary"><i class="bi bi-twitter"></i></Button>{'  '}
-        <Button variant="danger"><i class="bi bi-google"></i></Button>{'  '}
-        <Button variant="success"><i class="bi bi-whatsapp "></i></Button>{'  '}
-        <Button variant="info"><i class="bi bi-meta "></i></Button>{'  '}
-        <Button variant="danger"><i class="bi bi-youtube "></i></Button>{'  '}
-
+        <div className=''>
+          <a href="http://www.instagram.com" target="_blank"  title="Instagram "><i style={{marginleft: 15 + '0.2em', fontSize: '20px', padding:'1.0rem'}} class="bi bi-instagram -14x"></i></a>{'  '} 
+          <a href="http://www.facebook.com" target="_blank" title="facebook "><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-facebook -14x"></i></a>{'  '}  
+          <a href="http://www.twitter.com" target="_blank" title="twitter"><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-twitter -14x"></i></a>{'  '}
+          <a href="http://www.google.com" target="_blank" title="google"><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-google -14x"></i></a>{'  '}
+          <a href="http://www.whatsapp.com" target="_blank" title="whatsapp"><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-whatsapp -14x"></i></a>{'  '}
+          <a href="http://www.meta.com" target="_blank" title="meta"><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-meta -14x"></i></a>{'  '}
+          <a href="http://www.youtube.com" target="_blank" title="youtube"><i style={{marginleft: 15 + '0.2em', fontSize: '20px',padding:'1.0rem'}} class="bi bi-youtube -14x"></i></a>{'  '}
         </div>     
-    
      </section>
 
-      <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-2 border-bottom'>
+        <MDBContainer className='text-center text-md-start mt-2'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-0'>
               <h6 className='text-uppercase fw-bold mb-4'>
@@ -42,7 +40,7 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-3'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
@@ -111,7 +109,7 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center p-2' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
           DIGBootstrap.com

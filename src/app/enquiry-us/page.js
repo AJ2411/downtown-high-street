@@ -40,9 +40,9 @@ function page() {
       }}
     >
       {({ handleSubmit, handleChange, values, touched, errors }) => (
-       <div class="container">
+       <div className="container">
        
-     
+    
        <Form noValidate onSubmit={handleSubmit}>
           <Row className="mb-3">
             <Form.Group
@@ -187,7 +187,7 @@ function page() {
           </Form.Group>
           <Button type="submit">Submit form</Button>
         </Form>
-        </div>
+        </div >
       )}
     </Formik>
   );

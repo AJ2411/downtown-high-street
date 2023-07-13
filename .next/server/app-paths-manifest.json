@@ -1,6 +1,6 @@
 {
   "/page": "app/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
   "/productlist/page": "app/productlist/page.js",
-  "/enquiry-us/page": "app/enquiry-us/page.js",
-  "/contact-us/page": "app/contact-us/page.js"
+  "/enquiry-us/page": "app/enquiry-us/page.js"
 }
