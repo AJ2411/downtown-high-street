@@ -56,9 +56,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/contact-us/page.js": {
+    "(app-client)/./src/app/productlist/page.js": {
       "*": {
-        "id": "(sc_client)/./src/app/contact-us/page.js",
+        "id": "(sc_client)/./src/app/productlist/page.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -67,14 +67,6 @@
     "(app-client)/./src/app/enquiry-us/page.js": {
       "*": {
         "id": "(sc_client)/./src/app/enquiry-us/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/productlist/page.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/productlist/page.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -179,11 +171,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\contact-us\\page.js": {
-      "id": "(app-client)/./src/app/contact-us/page.js",
+    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\productlist\\page.js": {
+      "id": "(app-client)/./src/app/productlist/page.js",
       "name": "*",
       "chunks": [
-        "app/contact-us/page:static/chunks/app/contact-us/page.js"
+        "app/productlist/page:static/chunks/app/productlist/page.js"
       ],
       "async": false
     },
@@ -192,14 +184,6 @@
       "name": "*",
       "chunks": [
         "app/enquiry-us/page:static/chunks/app/enquiry-us/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\productlist\\page.js": {
-      "id": "(app-client)/./src/app/productlist/page.js",
-      "name": "*",
-      "chunks": [
-        "app/productlist/page:static/chunks/app/productlist/page.js"
       ],
       "async": false
     }
@@ -211,10 +195,9 @@
     "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\page": [
       "static/css/app/page.css"
     ],
-    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\contact-us\\page": [],
-    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\enquiry-us\\page": [],
     "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\productlist\\page": [
       "static/css/app/productlist/page.css"
-    ]
+    ],
+    "C:\\Users\\Akash\\Desktop\\KTS\\project_workspace\\next.js_bootstrap_ui_poc\\src\\app\\enquiry-us\\page": []
   }
 }
